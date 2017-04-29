@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amber"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.openlab.helloworld.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_suttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/subtitle"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/subtitle"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_mostar"
+        android:layout_width="@dimen/button"
+        android:layout_height="@dimen/button"
+        android:layout_marginTop="@dimen/marginbutton"
+        android:text="@string/mostrar" />
+
+</LinearLayout>
