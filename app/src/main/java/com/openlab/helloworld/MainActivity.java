@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Toast.makeText(getBaseContext(), edtText.getText().toString(), Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(MainActivity.this, TestActivity.class);
-                startActivity(intent);
+                //Intent intent = new Intent(MainActivity.this, TestActivity.class);
+                //startActivity(intent);
 
             }
         });
